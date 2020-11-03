@@ -1,0 +1,42 @@
+{
+  "name": "bbb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "cross-env XC_ENV=serve vue-cli-service serve",
+    "build-dev": "cross-env XC_ENV=dev vue-cli-service build",
+    "build-daily": "cross-env XC_ENV=daily vue-cli-service build",
+    "build-gray": "cross-env XC_ENV=gray vue-cli-service build",
+    "build": "cross-env XC_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@xc/xc-vue-lazyload": "0.0.2",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "dsbridge": "^3.1.4",
+    "lib-flexible": "^0.3.2",
+    "qs": "^6.9.4",
+    "vant": "^2.10.12",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.6",
+    "@vue/cli-plugin-eslint": "4.5.6",
+    "@vue/cli-service": "4.5.6",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
